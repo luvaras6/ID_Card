@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-size: 1.6rem;
+    background-image: url("fondo.jpg");
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+    padding: 0.5rem 10rem 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-size: 3.2rem;
+}
+
+.btn{
+    width: 10rem;
+    height: 4rem;
+    font-weight: 500;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0.1rem solid rgba(255, 255, 255, 0.5);
+}
+
+.link_btn {
+    text-decoration: none;
+    color: black;
+}
+
+.link_btn:hover {
+    color: black;
+}
+
+.section-one {
+    width: 100%;
+    max-width: 900px;
+    margin: 3rem auto;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+.main-one {
+    width: 100%;
+    max-width: 600px;
+    padding: 2rem 1rem 0 1rem;
+    margin: 4rem auto 1rem 0;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main-one h1 {
+    font-size: 3.2rem;
+    padding: 0 0 6rem 0;
+}
+
+.main-one h2 {
+   padding: 0 0 1.5rem 0; 
+   color: rgb(250, 57, 154);
+   font-weight: bold;
+}
+
+.main-two {
+    width: 40%;
+}
+
+.main-two img {
+    height: 40rem;
+    filter: drop-shadow(4px 4px 5px rgb(120, 120, 120));
+    border-radius: 0 0 0 2rem;
+}
+
+.section-two {
+    width: 100%;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem 2rem 1rem;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2rem;
+    border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+.section-two h3 {
+    color: rgb(250, 57, 154);
+    margin: 2rem 0;
+    font-weight: bold;
+}
+
+footer {
+    width: 100%;
+    padding: 1rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social {
+    list-style: none;
+}
+
+.social a {
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+}
