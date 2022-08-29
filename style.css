@@ -15,14 +15,17 @@ html {
 body {
     margin: 0;
     font-size: 1.6rem;
-    background-image: url("fondo.jpg");
+    background-color: rgb(225, 123, 79);
+    /* background-image: url("fondo.jpg");
     background-position: 0% 0%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
+
+/*---- HEADER ----*/
 
 header {
     width: 100%;
-    padding: 0.5rem 10rem 0 5rem;
+    padding: 1rem 10rem 0 5rem;
     display: flex;
     align-items: center;
     justify-items: center;
@@ -52,10 +55,13 @@ header {
     color: black;
 }
 
+/*---- MAIN ----*/
+
 .section-one {
     width: 100%;
+    height: 45rem;
     max-width: 900px;
-    margin: 3rem auto;
+    margin: 4rem auto;
     display: flex;
     align-items: center;
     backdrop-filter: blur(5px);
@@ -83,7 +89,7 @@ header {
 
 .main-one h2 {
    padding: 0 0 1.5rem 0; 
-   color: rgb(250, 57, 154);
+   color: rgb(218, 61, 4);
    font-weight: bold;
 }
 
@@ -92,9 +98,10 @@ header {
 }
 
 .main-two img {
-    height: 40rem;
-    filter: drop-shadow(4px 4px 5px rgb(120, 120, 120));
-    border-radius: 0 0 0 2rem;
+    width: 30rem;
+    height: 30rem;
+    filter: drop-shadow(1px 1px 3px rgb(84, 84, 84));
+    border-radius: 15rem;
 }
 
 .section-two {
@@ -110,10 +117,12 @@ header {
 }
 
 .section-two h3 {
-    color: rgb(250, 57, 154);
+    color: rgb(218, 61, 4);
     margin: 2rem 0;
     font-weight: bold;
 }
+
+/*---- FOOTER ----*/
 
 footer {
     width: 100%;
