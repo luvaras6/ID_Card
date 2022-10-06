@@ -20,6 +20,9 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css" />
+
+  <!-- SCRIPT -->
+  <script src="js/index.js" defer></script>
 </head>
 
 <body>
@@ -35,6 +38,8 @@
             <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
             <a class="nav-link text-white-50" href="#sobre_mi">Sobre mí</a>
             <a class="nav-link text-white-50" href="#mis_estudios">Estudios</a>
+            <a class="nav-link text-white-50" href="#proyectos">Proyectos</a>
+            <a class="nav-link text-white-50" href="#contacto">Contacto</a>
           </div>
         </div>
       </div>
@@ -48,32 +53,93 @@
         <p class="bienvenida">Bienvenidos</p>
         <h1 class="nombre">Soy <span>Lucía Guillermina Varas </span>, Frontend Dev
         </h1>
-        <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <p class="descripcion">" People ignore designs that ignore people " - Frank Chimero -</p>
         <a class="descarga" href="docs/Curriculum Vitae.pdf" download="">Descargar CV</a>
       </div>
     </section> 
 
   <!-- Sobre mi -->
-    <section class="sobreMi">
-      <div class="miDiv1">
-        <a name="sobre_mi"></a>
+    <section class="sobreMi animado">
+      <a name="sobre_mi"></a>
+      <div class="contenido">
         <h2 class="subTitulo">Sobre mí</h2>
-        <p class="parrafo"> Tengo 24 años. Soy de Córdoba capital. Durante el 2021 decidí incursionar en el mundo IT, lo que fue super atrapante. Este año decidí dedicarle más tiempo y esfuerzo con el objetivo de entrar en el sector laboral de tecnología.</p>
+        <p class="parrafo"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi corrupti quod laboriosam alias quibusdam voluptatibus quia velit est magni ipsa eaque consectetur recusandae veritatis soluta, rem nemo in provident ut?</p>
       </div>
-      <div class="miDiv2">
-        <img src="img/foto2.png" alt="">
+      <div class="foto">
+        <img src="img/imagen.png" alt="">
       </div>
     </section>
 
   <!-- Estudios -->
-    <section class="estudios">
+    <section class="estudios animado">
         <a name="mis_estudios"></a>
         <h2 class="subTitulo">Mis estudios</h2>
-        <p class="parrafo">Realicé el curso de Desarrollo FullStack con Python y Diseño UX UI en Codo a Codo. Actualmente estoy terminando el bootcamp en Desarrollo Fullstack del ITBA. Me gusta el área del front, lo que me llevó a querer aprender React para seguir especializándome.</p>
+        <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error voluptas enim quidem eaque explicabo, commodi culpa amet aspernatur pariatur accusantium repudiandae sint facere ipsum id dolor magni tempora! Ratione, fuga.</p>
+        <h3>Tecnologías</h3>
+        <div class="tecnologias">
+          <ul class="gridIcon">
+            <span>
+              <img src="img/htmlicon.png" class="iconT" alt="">
+              <p class="iconName">HTML</p>
+            </span>
+            <span>
+              <img src="img/cssicon.png" class="iconT" alt="">
+              <p class="iconName">CSS</p>
+            </span>
+            <span>
+              <img src="img/js1.png" class="iconT" alt="">
+              <p class="iconName">JAVASCRIPT</p>
+            </span>
+            <span>
+              <img src="img/bots.png" class="iconT" alt="">
+              <p class="iconName">BOOTSTRAP</p>
+            </span>
+            <span>
+              <img src="img/pyicon.png" class="iconT" alt="">
+              <p class="iconName">PYTHON</p>
+            </span>
+            <span>
+              <img src="img/sqlicon.png" class="iconT" alt="">
+              <p class="iconName">SQL</p>
+            </span>
+            <span>
+              <img src="img/giticon.png" class="iconT" alt="">
+              <p class="iconName">GIT</p>
+            </span>
+          </ul>
+        </div>
+    </section>
+
+  <!-- Proyectos -->
+    <section class="proyectos animado">
+      <a name="proyectos"></a>
+      <h2 class="subTitulo">Proyectos</h2>
+      <div>
+        <span>
+          <p></p>
+          <img src="" alt="">
+        </span>
+        <span>
+          <p></p>
+          <img src="" alt="">
+        </span>
+      </div>
+    </section>
+
+  <!-- Contacto -->
+    <section class="contacto animado">
+      <a name="contacto"></a>
+      <h2 class="subTitulo">Contactame</h2>
+      <input type="text" placeholder="Nombre y Apellido">
+      <input type="text" placeholder="Email">
+      <input type="text" placeholder="Asunto">
+      <input type="text" placeholder="Mensaje">
+      <button class="submit" type="submit">Enviar</button>
     </section>
   </main>
 
-  <footer>
+  <!-- Footer -->
+  <footer class="animado">
     <ul class="social">
       <a href="https://www.instagram.com/lucia_gvaras/"><i class="fa-brands fa-instagram"></i></a>
       <a href="https://www.linkedin.com/in/luc%C3%ADaguillerminavaras/"><i class="fa-brands fa-linkedin"></i></a>
